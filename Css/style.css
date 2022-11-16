@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-main {
-    padding-top: 70px;
-}
+
 /* HEADER */
 
 header {
@@ -30,6 +28,10 @@ header i {
 
 
 /* MAIN */
+main {
+    padding-top: 70px;
+}
+
 
 /* SECTION FEATURE */
 #feature {
@@ -40,13 +42,15 @@ header i {
     max-width: 90%;
     margin: 0 auto;
 }
-.row {
+#feature .row {
     height: 3115px;
+}
+
+.row {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 #feature .col {
     height: 500px;
@@ -56,4 +60,24 @@ header i {
 
 #feature .col:first-child {
     height: 1000px;
+}
+
+
+/* SECTION STRATEGIC PLANNING */
+#strategic-planning {
+    background-color: #9792E4;
+    padding: 50px 0;
+}
+
+#strategic-planning .row {
+    height: 2115px;
+}
+
+#strategic-planning .col {
+    height: 1000px;
+}
+
+#strategic-planning .col:last-child {
+    background-color: white;
+    border-radius: 50px;
 }
