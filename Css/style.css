@@ -81,3 +81,25 @@ main {
     background-color: white;
     border-radius: 50px;
 }
+
+
+/* SECTION TESTIMONIALS*/
+
+#testimonials {
+    padding: 50px 0 75px 0;
+}
+
+#testimonials .row {
+    height: 3000px;
+}
+
+#testimonials .col {
+    height: 700px;
+    background-color: #9792E4;
+    border-radius: 50px;
+}
+
+#testimonials .col:first-child {
+    border-radius: 0;
+    background-color: transparent;
+}
