@@ -99,7 +99,7 @@ main {
 }
 
 * p {
-    line-height: 30px;
+    line-height: 40px;
     font-size: 20px;
 }
 
@@ -218,7 +218,9 @@ h4 {
     background-image: url(/img/testimonial3.jpg);
 }
 
-
+.bi4 {
+    background-image: url(/img/about.jpg);
+}
 .image ~ p, p ~ h4 {
     color: white;
 }
@@ -235,11 +237,7 @@ h4 {
     color: white;
 }
 
-#benefits .row {
-    height: 3680px;
-}
 #benefits .col {
-    height: 500px;
     background-color: white;
     border-radius: 25px;
 }
@@ -263,29 +261,65 @@ h4 {
     font-size: 30px;
 }
 
+#benefits p {
+    color: #605e5e;
+}
 #benefits button {
     background-color: #9792E4;
     color: white;
     border: 0;
     font-size: 20px;
-    padding: 15px 60px 15px 60px;
+    padding: 15px 60px;
     border-radius: 25px;
     cursor: pointer;
 }
+
+
 /* SECTION ABOUT US */
 #about-us {
     padding: 75px 0 50px 0;
 }
 
-#about-us .row {
-    height: 1700px;
-}
-#about-us .col {
-    height: 400px;
-    background-color: black;
+#about-us .card {
+    align-items: flex-start;
 }
 
+#about-us h1 {
+    font-size: 40px;
+    color: #9792E4;
+}
 
+#about-us .image {
+    margin: 0;
+    position: relative;
+}
+
+#about-us .fa-solid {
+    color: #9792E4;
+    font-size: 3.5rem;
+    position: absolute;
+    right: 0%;
+}
+
+article {
+    color: #9792E4;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+#about-us button {
+    background-color: #9792E4;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#about-us button > * {
+    padding: 0 5px;
+}
 /* SECTION GET STARTED */
 #get-started {
     padding: 50px 0;
