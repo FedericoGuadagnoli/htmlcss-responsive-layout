@@ -55,12 +55,15 @@ main {
 #feature .col {
     background-color: #B5DDFF;
     border-radius: 25px;
-    margin: 15px;
 }
 
+* .col {
+    margin: 20px 0;
+}
 .col:first-child .card {
     padding: 30px 30px 0;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -97,11 +100,12 @@ main {
 
 * p {
     line-height: 30px;
+    font-weight: 900;
 }
 
 #feature p {
     color: #5A6E7F;
-    font-weight: 900;
+
     text-align: center;
 }
 
@@ -122,20 +126,46 @@ main {
     padding: 50px 0;
 }
 
-#strategic-planning .row {
-    height: 2040px;
-}
-
-#strategic-planning .col {
-    height: 1000px;
-}
-
 #strategic-planning .col:last-child {
     background-color: white;
     border-radius: 50px;
 }
 
+#strategic-planning img {
+    width: 100%;
+}
 
+#strategic-planning h2 {
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+
+#strategic-planning .col:first-child p {
+    color: white;
+    font-style: normal;
+    text-align: left;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#strategic-planning p {
+    font-style: italic;
+    text-align: center;
+}
+
+.ico {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #9792E4;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
 /* SECTION TESTIMONIALS*/
 
 #testimonials {
