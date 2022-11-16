@@ -326,10 +326,6 @@ article {
     background-color: #9792E4;
 }
 
-#get-started .card {
-    height: 700px;
-}
-
 #get-started span:first-child {
     color: #e5dfdf;
     font-size: 25px;
@@ -388,5 +384,16 @@ footer {
 }
 
 footer .card {
-    height: 300px;
+    padding: 0 30px;
 }
+
+footer p {
+    color: white;
+    line-height: normal;
+    font-size: 17px;
+    text-align: center;
+}
+footer a {
+    color: #9792E4;
+}
+
