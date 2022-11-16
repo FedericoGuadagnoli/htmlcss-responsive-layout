@@ -330,6 +330,57 @@ article {
     height: 700px;
 }
 
+#get-started span:first-child {
+    color: #e5dfdf;
+    font-size: 25px;
+}
+
+#get-started h2 {
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}
+
+#get-started h1 {
+    font-size: 5rem;
+    color: #FDC15F;
+}
+
+#get-started p {
+    color: white;
+    text-align: center;
+}
+
+#get-started button {
+    color: #9792E4;
+    border: 0;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 20px 90px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#get-started ul {
+    display: flex;
+}
+
+#get-started ul li {
+    padding: 0px 5px;
+    font-size: 14px;
+    list-style-position: inside;
+    color: white;
+}
+
+#get-started li:first-child {
+    list-style-type: none;
+}
+
+#get-started li:last-child {
+    text-decoration: underline;
+}
+
+
 /* FOOTER */
 footer {
     background-color: #333333;
