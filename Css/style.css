@@ -134,6 +134,10 @@ main {
 #about-us {
     padding: 75px 0 50px 0;
 }
+
+#about-us .row {
+    height: 1700px;
+}
 #about-us .col {
     height: 400px;
     background-color: black;
@@ -148,4 +152,14 @@ main {
 
 #get-started .card {
     height: 700px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333333;
+    padding: 50px 0;
+}
+
+footer .card {
+    height: 300px;
 }
