@@ -14,17 +14,17 @@ body {
 header {
     background-color: #0084FD;
     width: 100%;
-    height: 70px;
+    height: 78px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    padding: 0 20px;
+    padding: 0 25px;
     color: white;   
     z-index: 1;
 }
 
-header i {
+header .fa-solid, .fa-bars {
     cursor: pointer;
     font-size: 30px;
 }
@@ -45,9 +45,6 @@ main {
     max-width: 90%;
     margin: 0 auto;
 }
-#feature .row {
-    height: 3115px;
-}
 
 .row {
     display: flex;
@@ -56,14 +53,67 @@ main {
 }
 
 #feature .col {
-    height: 500px;
     background-color: #B5DDFF;
     border-radius: 25px;
+    margin: 15px;
 }
 
-#feature .col:first-child {
-    height: 1000px;
+.col:first-child .card {
+    padding: 30px 30px 0;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    gap: 30px;
+}
+
+
+#feature h2, #feature .fa-solid {
+    color: #0084FD;
+    font-weight: 900;
+    font-size: 30px
+}
+
+#feature .fa-solid {
+    font-size: 90px;
+}
+#feature button {
+    width: 75%;
+    font-size: 20px;
+    background-color: #0084FD;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#feature button > * {
+    padding: 0 5px;
+}
+
+* p {
+    line-height: 30px;
+}
+
+#feature p {
+    color: #5A6E7F;
+    font-weight: 900;
+    text-align: center;
+}
+
+#feature .col:first-child .card p {
+    text-align: left;
+}
+
+#feature .card img {
+    width: 80%;
+    align-self: center;
+}
+
 
 
 /* SECTION STRATEGIC PLANNING */
