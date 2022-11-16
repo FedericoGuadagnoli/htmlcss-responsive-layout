@@ -138,3 +138,14 @@ main {
     height: 400px;
     background-color: black;
 }
+
+
+/* SECTION GET STARTED */
+#get-started {
+    padding: 50px 0;
+    background-color: #9792E4;
+}
+
+#get-started .card {
+    height: 700px;
+}
