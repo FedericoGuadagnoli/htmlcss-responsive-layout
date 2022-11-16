@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
 
 /* HEADER */
 
@@ -70,7 +73,7 @@ main {
 }
 
 #strategic-planning .row {
-    height: 2115px;
+    height: 2040px;
 }
 
 #strategic-planning .col {
@@ -90,7 +93,7 @@ main {
 }
 
 #testimonials .row {
-    height: 3000px;
+    height: 2900px;
 }
 
 #testimonials .col {
@@ -102,4 +105,26 @@ main {
 #testimonials .col:first-child {
     border-radius: 0;
     background-color: transparent;
+}
+
+
+/* SECTION BENEFITS */
+#benefits {
+    background-color: #9792E4;
+    padding: 50px 0;
+}
+#benefits h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+
+#benefits .row {
+    height: 3680px;
+}
+#benefits .col {
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
 }
