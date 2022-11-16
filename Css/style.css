@@ -100,12 +100,12 @@ main {
 
 * p {
     line-height: 30px;
-    font-weight: 900;
+    font-size: 20px;
 }
 
 #feature p {
     color: #5A6E7F;
-
+    font-weight: bold;
     text-align: center;
 }
 
@@ -166,6 +166,8 @@ h3 {
     line-height: 40px;
     vertical-align: middle;
 }
+
+
 /* SECTION TESTIMONIALS*/
 
 #testimonials {
@@ -187,6 +189,44 @@ h3 {
     background-color: transparent;
 }
 
+#testimonials .card {
+    text-align: center;
+}
+
+h4 {
+    font-size: 22px;
+}
+#testimonials h2 {
+    color: #9792E4;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.image {
+    width: 200px;
+    margin: 0 auto;
+    height: 200px;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.bi1 {
+    background-image: url(/img/testimonial1.jpg);
+}
+
+.bi2 {
+    background-image: url(/img/testimonial2.jpg);
+}
+
+.bi3 {
+    background-image: url(/img/testimonial3.jpg);
+}
+
+
+.image ~ p, p ~ h4 {
+    color: white;
+}
 
 /* SECTION BENEFITS */
 #benefits {
