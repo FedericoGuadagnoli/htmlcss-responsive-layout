@@ -397,3 +397,43 @@ footer a {
     color: #9792E4;
 }
 
+
+@media screen and (min-width: 481px) {
+    
+    /* SECTION FEATURE */
+    #feature .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #feature .col {
+        margin: 10px 10px;
+        flex-basis: calc(100% / 3 - 20px);
+    }
+
+    #feature .col:first-child {
+        flex-basis: calc(100% / 3 * 2 - 20px);
+    }
+
+    #feature .col:first-child .card {
+        align-items: flex-start;
+    }
+
+    #feature .card img {
+        width: 88%;
+        align-self: flex-start;
+    }    
+
+    #feature * p {
+        font-size: 1rem;
+    }
+
+    #feature h2 {
+        font-size: 20px;
+    }
+
+    * p {
+        line-height: 25px;
+    }
+
+}
