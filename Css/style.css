@@ -488,7 +488,7 @@ footer a {
 
     .testimonial h4 {
         position: absolute;
-        left: 38%;
+        left: 37%;
         top: 74%;
     }
 
@@ -549,7 +549,11 @@ footer a {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
+
+    .container {
+        max-width: 70%;
+    }
 
     /* HEADER */
     header ul {
@@ -562,7 +566,7 @@ footer a {
 
     /* SECTION FEATURE */
     #feature .col:first-child .card p {
-        width: 40%;
+        width: 48%;
     }
 
     #feature button {
@@ -570,10 +574,62 @@ footer a {
     }
 
     #feature .card img {
-        width: 50%;
+        width: 51%;
         align-self: flex-end;
-        margin-top: -340px;
+        margin-top: -233px;
     }
+
+    /* SECTION STRATEGIC PLANNING */
+    #strategic-planning .container {
+        max-width: 60%;
+    } 
+
+    #strategic-planning .row {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    #strategic-planning .col {
+        flex-basis: 50%;
+    }
+
+    #strategic-planning .col:first-child .card {
+        gap: 90px;
+    }
+
+    #strategic-planning .col:first-child .card p {
+        margin-top: -45px;
+    }
+
+    #strategic-planning .col:last-child img {
+        width: 70%;
+    }
+
+
+    /* SECTION BENEFITS */
+    #benefits .col {
+        flex-basis: calc(100% / 3 - 20px);
+    }
+
+    #benefits .card {
+        gap: 10px;
+    }
+
+    #benefits h3 {
+        font-size: 28px;
+    }
+
+    #benefits p {
+        width: 120%;
+    }
+
+    #benefits button {
+        padding: 5px 30px;
+    }
+    
+
+
+
 
 
 }
