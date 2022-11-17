@@ -560,5 +560,20 @@ footer a {
         display: none;
     }
 
+    /* SECTION FEATURE */
+    #feature .col:first-child .card p {
+        width: 40%;
+    }
+
+    #feature button {
+        width: 40%;
+    }
+
+    #feature .card img {
+        width: 50%;
+        align-self: flex-end;
+        margin-top: -340px;
+    }
+
 
 }
