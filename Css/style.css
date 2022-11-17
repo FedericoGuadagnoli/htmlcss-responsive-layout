@@ -510,4 +510,14 @@ footer a {
         width: 38%;
     }
 
+
+    /* FOOTER */
+    footer .container {
+        max-width: 70%;
+    }
+
+    footer .card {
+        gap: 50px;
+    }
+
 }
