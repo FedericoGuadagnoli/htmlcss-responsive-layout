@@ -434,6 +434,35 @@ footer a {
 
     * p {
         line-height: 25px;
+        font-size: 16px;
+    }
+
+    /* SECTION STRATEGIC PLANNING */
+
+    #testimonials h2 {
+        font-size: 40px;
+    }
+
+    #testimonials .testimonial {
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .testimonial .image {
+        margin: 0;
+    }
+
+    .testimonial p {
+        width: 60%;
+        position: absolute;
+        left: 35%;
+        top: 20%;
+    }
+
+    .testimonial h4 {
+        position: absolute;
+        left: 38%;
+        top: 74%;
     }
 
 }
