@@ -465,4 +465,29 @@ footer a {
         top: 74%;
     }
 
+
+    /* SECTION BENEFITS */
+    #benefits {
+        padding: 20px 0;
+    }
+
+    #benefits .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #benefits .col:first-child {
+        flex-basis: 100%;
+    }
+
+    #benefits .col:first-child .card {
+        align-items: center;
+        padding: 30px 30px;
+    }
+
+    #benefits .col {
+        margin: 10px 10px;
+        flex-basis: calc(100% / 2 - 20px);
+    }
+
 }
