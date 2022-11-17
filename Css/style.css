@@ -634,6 +634,20 @@ footer a {
         width: 31%;
     }
 
+
+    /* SECTION GET STARTED */
+    #get-started .container {
+        max-width: 50%;
+    } 
+
+    #get-started h2 {
+        font-size: 46px;
+    }
+
+    #get-started p {
+        width: 94%;
+    }
+
     
 
 
