@@ -626,6 +626,14 @@ footer a {
     #benefits button {
         padding: 5px 30px;
     }
+
+
+    /* SECTION ABOUT US */
+
+    #about-us article {
+        width: 31%;
+    }
+
     
 
 
