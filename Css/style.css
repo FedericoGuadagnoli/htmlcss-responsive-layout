@@ -620,7 +620,7 @@ footer a {
     }
 
     #benefits p {
-        width: 120%;
+        width: 100%;
     }
 
     #benefits button {
@@ -648,10 +648,13 @@ footer a {
         width: 94%;
     }
 
-    
 
+    /* FOOTER */
+    footer .container {
+        max-width: 40%;
+    }
 
-
-
-
+    footer p {
+        font-size: 15px;
+    }
 }
